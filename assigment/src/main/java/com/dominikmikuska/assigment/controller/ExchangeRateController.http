@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/exchange
+Content-Type: application/json
+
+{
+  "fromCurrency": "USD",
+  "toCurrency": "EUR",
+  "value": 2.5
+}
+
+###
+GET http://localhost:8080/api/exchange-rates
+Accept: application/json
+
+###
